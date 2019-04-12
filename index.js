@@ -42,8 +42,11 @@ for (var i = 0; i < btn.length; i++) {
             clearInterval(timer);//鼠标移入小圆点，清除定时器
             for (var j = 0; j < btn.length; j++) {
                 img[j].style.display = "none";
-            }
+                btn[j].style.backgroundColor = "rgb(128, 128, 128)";
+            } 
             img[i].style.display = "inline-block";//圆点对应的图片显示，其余隐藏
+            btn[i].style.backgroundColor = "rgb(235, 225, 225)" ;
+            console.log(btn[i]);   
         } 
         btn[i].onmouseout = function (){
             timer = setInterval(autoPlay, 1000);//鼠标移出小圆点，定时器继续

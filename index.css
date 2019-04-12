@@ -46,9 +46,6 @@ body {
     border-radius: 50%;
 }
 
-.btn span:hover {
-    background-color: rgb(240, 248, 255);
-}
 .img-class .pre{
     position: absolute;
     left: -10px;
